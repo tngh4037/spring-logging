@@ -43,4 +43,13 @@ public class ShortenUrl {
 
         return shortenUrlKey.toString();
     }
+
+    @Override
+    public String toString() {
+        return "ShortenUrl{" +
+                "originalUrl='" + originalUrl + '\'' +
+                ", shortenUrlKey='" + shortenUrlKey + '\'' +
+                ", redirectCount=" + redirectCount +
+                '}';
+    }
 }
